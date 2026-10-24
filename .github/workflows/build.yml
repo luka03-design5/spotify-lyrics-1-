@@ -13,4 +13,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: spotify-lyrics-jar
-          path: build/libs/*[!sources].jar
+          path: build/libs/*.jar
